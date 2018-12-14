@@ -1,0 +1,76 @@
+include inc/mixin
+
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width")
+		title Document
+
+		link(rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon")
+		link(rel="apple-touch-icon" href="img/favicon/apple-touch.png")
+		link(rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-72x72.png")
+		link(rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-114x114.png")
+
+		link(rel="stylesheet" href="css/style.min.css?rev=@@hash")
+
+	body
+		header.header
+			.navbar
+				.col-md-2
+					img.img(src='img/logo.png', alt='')
+				.col-md-10
+					.row.align-items-center
+						.col-11
+							.nav
+								a.nav-link(href='#') Home
+								a.nav-link(href='#') Portfolios
+								a.nav-link(href='#') Blog
+								a.nav-link(href='#') Contact
+								a.nav-link(href='#') Shop
+								a.nav-link(href='#') Contact us
+						.col
+							.search.text-right
+								i.fa.fa-search
+		section.slider
+			.web-text
+				h1.web Web development project
+				h3 Very suitable to support all web development projects
+		section.about
+			.about-title
+				h1.main-title About us
+				.info-text
+					p.icon__text
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, assumenda modi iure aspernatur harum architecto molestiae esse commodi qui aut, excepturi dolore saepe quas et reiciendis obcaecati quibusdam distinctio? Officiis.
+			.icons
+				.icons__item
+					img.img-fluid(src='img/internet.png')
+					h1.icon-title Awesome Icons
+					p.icon-text
+						| Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quo sit eligendi beatae! Provident illum magni.
+				.icons__item
+					img.img-fluid(src='img/transfer.png')
+					h1.icon-title One Page
+					p.icon-text
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi possimus cum doloremque libero aperiam pe.
+				.icons__item
+					img.img-fluid(src='img/head.png')
+					h1.icon-title Fully Responsive
+					p.icon-text
+						| Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae totam dignissimos neque nesciunt distinctio.
+		section.services
+			.main-text
+				h1 Our services
+				p.second-text
+					| Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque similique reprehenderit quaerat voluptatibus debitis ab, et ducimus earum perferendis. Reprehenderit?
+			.cards
+				.card
+					.card-img
+						img(src='img/logo.png')
+					.main-text
+						h1 Reseacrh
+						p.text-title
+							| Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam vel placeat necessitatibus quasi fugiat atque tenetur ex doloremque assumenda sunt?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, libero?
+
+		script(src="js/libs.min.js")
+		script(src="js/common.js")
