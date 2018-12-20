@@ -23,10 +23,14 @@
   //   margin: 10px
   
 .works-nav__list
-  border: 1px solid black
+  border: 1px solid #47aaa0
   margin: 10px
   padding: 5px 25px
   font-weight: bold
+
+  &:first-child
+    border: none
+    background: #47aaa0
 
 .photos
   width: 80%
@@ -55,10 +59,14 @@
   width: 220px
   height: 70px
   padding: 10 5 
+  cursor: pointer
   text-align: center
   background: #4aaba1
   border: 1px solid #4aaba1
   &__link
     text-decoration: none
     color: #fff
- 
+
+    &:hover
+      text-decoration: none
+      transition: .7s
